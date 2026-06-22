@@ -1,1 +1,16 @@
+interface:
+  display_name: "Prompt Engineering & Instructions"
+  short_description: "Creates and refines clear prompts using role, goal, context, examples, constraints, and reliability checks."
+  default_prompt: "Create or improve a prompt using role, goal, context, examples, constraints, and tests."
 
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools: []
+  files:
+    - SKILL.md
+    - README.md
+    - assets/prompt-template.md
+    - references/style-guide.md
+    - scripts/example_helper.py
